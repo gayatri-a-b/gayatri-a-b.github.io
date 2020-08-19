@@ -3,21 +3,19 @@
     <head>
         <title>Fall 2020 PT</title>
         <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/evo-calendar@1.1.2/evo-calendar/css/evo-calendar.min.css"/>
+		
+		<script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/evo-calendar@1.1.2/evo-calendar/js/evo-calendar.min.js"></script>
     </head>
     <body>
 
         <div id="calendar"></div>
 
-        <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/evo-calendar@1.1.2/evo-calendar/js/evo-calendar.min.js"></script>
-
         <script>
-			$(document).ready(function() {
-				$('#calendar').evoCalendar({
-					theme: "Royal Navy:",
-					todayHighlight: true,
-					sidebarToggler: false
-				})
+			$('#calendar').evoCalendar({
+				theme: "Royal Navy",
+				todayHighlight: true,
+				sidebarToggler: false
 			})
         </script>
 
