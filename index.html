@@ -1,31 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-	
-		<title> GB3 </title>
-	
-		<!-- Add the evo-calendar.css for styling -->
-		<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/evo-calendar@1.1.2/evo-calendar/css/evo-calendar.min.css"/>
-	
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-		
-		<!-- Add the evo-calendar.js for.. obviously, functionality! -->
-		<script src="https://cdn.jsdelivr.net/npm/evo-calendar@1.1.2/evo-calendar/js/evo-calendar.min.js"></script>
-	</head>
-	
-	<body>
-		<!-- Add jQuery library (required) -->
-		<script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+    <head>
+        <title>Fall 2020 PT</title>
+        <link rel="stylesheet" type="text/css" href="css/evo-calendar.css"/>
+        <link rel="stylesheet" type="text/css" href="css/evo-calendar.midnight-blue.css"/>
+    </head>
+    <body>
 
-		<!-- Add the evo-calendar.js for.. obviously, functionality! -->
-		<script src="https://cdn.jsdelivr.net/npm/evo-calendar@1.1.2/evo-calendar/js/evo-calendar.min.js"></script>
-		
-		<div id="calendar"></div>
-		
-		<script>
-			$('#calendar').evoCalendar({
-				theme: 'Midnight Blue'
-			});
-		</script>
-	</body>
+        <div id="calendar"></div>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="js/evo-calendar.js"></script>
+
+        <script>
+			$(document).ready(function() {
+				$('#calendar').evoCalendar({
+					settingName: settingValue
+				})
+			})
+        </script>
+
+    </body>
 </html>
